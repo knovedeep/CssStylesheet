@@ -11,24 +11,6 @@
     border: 4px 15px 50px 50px red;
 }
 
- .Right {
-    position: relative;
-    top:0%;
-    left: 1050px;
-    color: white;
-    font-size: 12px;
-  
-
-} 
-#Cart {
-    display: block;
-    left: 1050px;
-    top:30px;
-}
-#Sign {
-    display: block;
-    left: 877px;
-}
 #Logo {
     color: white;
     font-size: 24px;
@@ -39,16 +21,37 @@
     padding-bottom: 20px;
 
 }
-/* .Picture {
+.Picture {
     
     float:right;
-    width: 50px;
-    height: 50px;
-    color: white;
+    position: relative;
+    right: 10px;
+    top:35px;
+    width: 25px;
+    height: 25px;
+    filter:invert(1);
     margin-top: 500;
 
 }
-*/
+#Cart {
+    
+    float:right;
+    position: fixed;
+    right: 40px;
+    top:39px;
+    margin-top: 500;
+
+}
+#Sign{
+    
+    float:right;
+    position: fixed;
+    right: 10px;
+    margin-top: 500;
+
+}
+
+
 
 nav ul {
     display: inline;
@@ -86,7 +89,7 @@ input {
     background-position: left center;outline:0;
     position: relative;
     top: -10px;
-    left: -200px;
+    left: 60px;
     height: 8px;
     margin-top: 0%;
     padding-top: 10px;
@@ -98,7 +101,7 @@ input {
 #Icon {
     position: relative;
     top: 0px;
-    left: -205px;
+    left: 56px;
     width: 14px;
     height: 14px;
     margin:0;
@@ -107,4 +110,13 @@ input {
     padding-left:10px;
     padding-right:10px;
     padding-bottom: 8px;
+}
+
+.contentmaterial {
+    margin-top: 0%;
+    margin-left: -.3%;
+    margin-right: -7%;
+    margin-bottom: -69%;
+    box-sizing: border-box;
+    background-color: grey;
 }

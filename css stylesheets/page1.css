@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Space+Mono&display=swap');
 * {
     font-size: 12pt;
+    font-family:andika;
 }
 * header {
     position: fixed;
@@ -18,7 +20,7 @@
     padding-top: 20px;
     padding-left:10px;
     padding-right:10px;
-    padding-bottom: 20px;
+    padding-bottom: 11px;
 
 }
 .Picture {
@@ -105,18 +107,59 @@ input {
     width: 14px;
     height: 14px;
     margin:0;
-    background: red;
+    filter:invert(1);
+    background-color: cyan;
     padding-top: 10px;
     padding-left:10px;
     padding-right:10px;
     padding-bottom: 8px;
+    
 }
 
 .contentmaterial {
-    margin-top: 0%;
-    margin-left: -.3%;
+    
+    margin-top: 3.5%;
+    margin-left: -.4%;
     margin-right: -7%;
     margin-bottom: -69%;
     box-sizing: border-box;
-    background-color: grey;
+    background-color: rgba(233, 223, 179, 0.911);
+    
+}
+.header1, .artistinfo {
+font-size: xx-large;
+font-family: 'Bebas Neue';
+}
+
+.big-text {
+    text-align: center;
+    margin: 0% 35% 5% 25%;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    padding-bottom: 2.5%;
+    margin-bottom: 0%;
+
+}
+
+a:hover {
+    background-color: red;
+    }
+
+#Above {
+    color: white;
+    font-size: 24px;
+    background: black;
+    margin-top: 5%;
+    width: 5%;
+    padding-top: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 11px;
+    box-shadow: 10px 5px 5px red;
+    }
+.bob {
+    margin: 5% 35% 5% 32.5%;
 }

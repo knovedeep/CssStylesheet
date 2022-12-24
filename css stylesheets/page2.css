@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Space+Mono&display=swap');
+* {
+    font-size: 12pt;
+    font-family:andika;
+}
+* header {
+    position: fixed;
+    background: black;
+    top:0;
+    left:0;
+    width:100%;
+    height: 69px;
+    border: 4px 15px 50px 50px red;
+}
+
+#Logo {
+    color: white;
+    font-size: 24px;
+    background: red;
+    padding-top: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 11px;
+
+}
+.Picture {
+    
+    float:right;
+    position: relative;
+    right: 10px;
+    top:35px;
+    width: 25px;
+    height: 25px;
+    filter:invert(1);
+    margin-top: 500;
+
+}
+#Cart {
+    
+    float:right;
+    position: fixed;
+    right: 40px;
+    top:39px;
+    margin-top: 500;
+
+}
+#Sign{
+    
+    float:right;
+    position: fixed;
+    right: 10px;
+    margin-top: 500;
+
+}
+
+
+
+nav ul {
+    display: inline;
+    list-style: none;
+    padding: none ;
+
+}
+nav ul li {
+
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    font-size: .1pt;
+    position: relative;
+    color: white;
+    background: black;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 14px;
+    border-color: purple;
+    box-sizing: border-box;
+    
+}
+input {    
+    background: url("Images\pngfind.com-magnifying-glass-png-no-1043692.png");
+    background-repeat: no-repeat;
+    background-position: left center;outline:0;
+    position: relative;
+    top: -10px;
+    left: 60px;
+    height: 8px;
+    margin-top: 0%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;   
+    background-color: white;
+    }
+#Icon {
+    position: relative;
+    top: 0px;
+    left: 56px;
+    width: 14px;
+    height: 14px;
+    margin:0;
+    filter:invert(1);
+    background-color: cyan;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 8px;
+    
+}
+
+.contentmaterial {
+    
+    margin-top: 3.5%;
+    margin-left: -.4%;
+    margin-right: -7%;
+    margin-bottom: -69%;
+    box-sizing: border-box;
+    background-color: rgba(233, 223, 179, 0.911);
+    
+}
+.header1, .artistinfo {
+font-size: xx-large;
+font-family: 'Bebas Neue';
+}
+
+.big-text {
+    margin: 5% 15% 5% 2%;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    padding-bottom: 2.5%;
+    margin-bottom: 0%;
+
+}
+
+#info {
+    margin-top: 5%;
+    margin-bottom: 45%;
+}
